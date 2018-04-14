@@ -10,7 +10,6 @@
     "build": "npm run clean && cross-env NODE_ENV=production gulp build",
     "start": "npm run clean && cross-env NODE_ENV=production gulp",
     "dev": "npm run clean && cross-env NODE_ENV=development gulp",
-    "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup --force",
     "test": "echo 'no has test! lol'"
   },
   "repository": {
