@@ -6,7 +6,7 @@ const loadPlugins = require('gulp-load-plugins')
 const jeet = require('jeet')
 const rupture = require('rupture')
 
-const env = process.env.NODE_ENV || 'development'
+const env = process.env.NODE_ENV || 'production'
 const isProduction = env === 'production'
 const $ = loadPlugins()
 
