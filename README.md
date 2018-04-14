@@ -1,4 +1,4 @@
-# 30days30sites
+# 30 Days, 30 Sites
 
 ```bash
 $ yarn install # or npm install
